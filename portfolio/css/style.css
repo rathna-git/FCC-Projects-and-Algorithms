@@ -1,0 +1,102 @@
+body{
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#home{
+ padding-top:80px;
+ height:800px;
+ color: #fff; 
+}
+
+.home-heading{
+  margin-top: 250px;       font-family:'Open Sans', sans-serif; 
+  color: #303030;
+}
+
+.jumbotron{
+  background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg"); 
+
+  background-size:100%;
+  opacity: 0.8;
+}
+
+.learn-more{
+  position: relative;
+  bottom: -200px;
+  text-align: center;
+  font-size: 18px;
+}
+
+a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+a:hover{
+  color: #fff;
+  text-decoration: none;
+  font-size: 19px;
+}
+
+#about{
+ padding-top:80px;
+ height:800px;
+ color: #303030;  
+}
+
+.profile-image{
+  margin-top: 20px;       margin-bottom: 30px;
+}
+
+.profile-heading{
+  margin-bottom: 20px;
+}
+
+#profile-content{
+  font-size: 20px;
+}
+
+.about-scroll{
+position: relative;   bottom: -30px;
+}
+
+.i-color{
+  color:#303030;
+}
+
+#portfolio{
+padding-top:80px;
+height:800px;
+color: #303030;
+background-color: #fffbe2;
+}
+
+.portfolio-image{
+  height: 200px; 
+  width: 350px;           margin:18px;
+}
+
+#contact{
+padding-top:80px;
+height:300px;
+color: #7a7a7a; 
+background-color: #323232;
+}
+
+ .contact-link{
+  color: #f7cb65; 
+  font-size: 35px;         margin:5px;
+  }
+
+.contact-link:hover{
+  color: #fff;
+  font-size: 35px;
+  margin: 5px;
+}
+
+.contact-content{
+  font-size:14px; 
+  text-align:center;
+}

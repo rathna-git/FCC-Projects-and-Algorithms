@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Local Weather</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons-wind.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="container">
+  <h1 class="text-center"></h1>
+  <div class="main_container text-center">
+    <h1 class="city_name"></h1>
+    <h3 class="weather"></h3>
+  
+    <div class="row temp-container">
+    <h1> <span class="temp"></span>
+        <span class ="unit"></span></h1>
+    </div>
+    
+    
+    <div class="text-center all-icon">
+          <div class="icon drizzle hide ">
+            <div class="cloud"></div>
+            <div class="sun">
+              <div class="rays"></div>
+            </div>
+            <div class="rain"></div>
+          </div>
+          <div class="icon hide thunderstorm">
+            <div class="cloud"></div>
+            <div class="lightning">
+              <div class="bolt"></div>
+              <div class="bolt"></div>
+            </div>
+          </div>
+          <div class="icon cloudy hide clouds">
+            <div class="cloud"></div>
+            <div class="cloud"></div>
+          </div>
+          <div class="icon flurries hide snow">
+            <div class="cloud"></div>
+            <div class="snow">
+              <div class="flake"></div>
+              <div class="flake"></div>
+            </div>
+          </div>
+          <div class="icon sunny hide clear">
+            <div class="sun">
+              <div class="rays"></div>
+            </div>
+          </div>
+          <div class="icon rainy hide rain">
+            <div class="cloud"></div>
+            <div class="rain"></div>
+            <div class="rain"></div>
+          </div>
+        </div>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>

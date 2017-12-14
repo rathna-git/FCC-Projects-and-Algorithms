@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Wikipedia Viewer</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  
+<div class="container text-center">
+  <h1>WIKIPEDIA VIEWER</h1>
+  <h3>Type here to search for a Wiki article</h3>
+  <form onsubmit="newsearch(); return false">
+    <input type="text" placeholder="Search here..." id="input_value"/>
+    <input class="btn btn-md" id="submit" type="submit" value="Submit">
+  </form>
+  <h3>or rather...</h3>
+  <button class="btn btn-large random_btn"><a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank" >Click here to read a random article</a></button>
+  
+  <div class="col-md-12  result-container"></div>
+  
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>

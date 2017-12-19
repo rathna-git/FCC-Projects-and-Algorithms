@@ -1,0 +1,93 @@
+$header: #2679ff;
+$header-color: #fff;
+$nav: #e5e5e5;
+$stream: #fce8ff;
+$body: #303030;
+$online: #f9c6ff;
+$status-font: "Lobster-two", cursive;
+
+@import url("https://fonts.googleapis.com/css?family=Lobster+Two");
+
+body {
+  font-family: "Anton", sans-serif;
+  background-color: #f4f4f4;
+  color: $body;
+  margin: 10px;
+}
+
+#header,
+#footer {
+  background-color: $header;
+  position: relative;
+  padding: 5px;
+  margin-top: 2px;
+
+  h1 {
+    display: inline-block;
+    color: $header-color;
+    padding: 50px;
+  }
+}
+
+nav {
+  margin: 2px 0px;
+  background-color: $nav;
+  .nav-item {
+    margin: 0px 40px;
+    color: $body;
+    font-size: 25px;
+  }
+}
+
+.online {
+  background-color: $online !important;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.stream-container {
+  display: block;
+  position: relative;
+  margin-bottom: 1px;
+  background-color: $stream;
+  padding: 30px;
+
+  img {
+    display: inline-block;
+    margin-right: 30px;
+    height: 80px;
+    width: 80px;
+    border: 2px solid white;
+    border-radius: 50%;
+  }
+
+  .info-container {
+    position: absolute;
+    top: 50px;
+    left: 130px;
+
+    a {
+      color: $body;
+      cursor: pointer;
+
+      &:hover {
+        color: $header;
+      }
+    }
+
+    .status {
+      display: inline-block;
+      position: absolute;
+      left: 80px;
+      width: 800px;
+      text-align: center;
+      font-family: $status-font;
+    }
+    .stream-info {
+      display: inline-block;
+      font-size: 20px;
+    }
+  }
+}

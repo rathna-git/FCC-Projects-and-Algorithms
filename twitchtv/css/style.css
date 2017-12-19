@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster+Two");
+body {
+  font-family: "Anton", sans-serif;
+  background-color: #f4f4f4;
+  color: #303030;
+  margin: 10px;
+}
+
+#header,
+#footer {
+  background-color: #2679ff;
+  position: relative;
+  padding: 5px;
+  margin-top: 2px;
+}
+#header h1,
+#footer h1 {
+  display: inline-block;
+  color: #fff;
+  padding: 50px;
+}
+
+nav {
+  margin: 2px 0px;
+  background-color: #e5e5e5;
+}
+nav .nav-item {
+  margin: 0px 40px;
+  color: #303030;
+  font-size: 25px;
+}
+
+.online {
+  background-color: #f9c6ff !important;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.stream-container {
+  display: block;
+  position: relative;
+  margin-bottom: 1px;
+  background-color: #fce8ff;
+  padding: 30px;
+}
+.stream-container img {
+  display: inline-block;
+  margin-right: 30px;
+  height: 80px;
+  width: 80px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+.stream-container .info-container {
+  position: absolute;
+  top: 50px;
+  left: 130px;
+}
+.stream-container .info-container a {
+  color: #303030;
+  cursor: pointer;
+}
+.stream-container .info-container a:hover {
+  color: #2679ff;
+}
+.stream-container .info-container .status {
+  display: inline-block;
+  position: absolute;
+  left: 80px;
+  width: 800px;
+  text-align: center;
+  font-family: "Lobster-two", cursive;
+}
+.stream-container .info-container .stream-info {
+  display: inline-block;
+  font-size: 20px;
+}
